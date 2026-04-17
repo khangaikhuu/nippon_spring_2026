@@ -1,0 +1,18 @@
+BEGIN
+  INPUT weather
+  IF weather = "бороотой" THEN
+    OUTPUT "Цув аваарай"
+  ELSE
+    OUTPUT "Цув хэрэггүй"
+  ENDIF
+END
+
+
+BEGIN
+  INPUT hour
+  IF hour >= 9 AND hour <= 21 THEN
+    OUTPUT "Дэлгүүр нээлттэй"
+  ELSE
+    OUTPUT "Дэлгүүр хаалттай"
+  ENDIF
+END

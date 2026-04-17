@@ -1,0 +1,6 @@
+BEGIN
+  OUTPUT "Өглөөний мэнд!"
+  OUTPUT "Өнөөдөр ямар цаг байна?"
+  INPUT time
+  OUTPUT "Ойлголоо, " + time + " болжээ"
+END

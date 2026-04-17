@@ -1,0 +1,8 @@
+BEGIN
+  SET door = "нээлттэй"
+  WHILE door = "нээлттэй" DO
+    OUTPUT "Хаалгыг хаа!"
+    INPUT door
+  ENDWHILE
+  OUTPUT "Хаалга хаагдлаа"
+END
