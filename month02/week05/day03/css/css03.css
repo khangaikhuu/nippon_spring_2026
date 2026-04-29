@@ -1,0 +1,39 @@
+/* tag selector */
+/* CSS selector priority */
+section {
+   height: 400px;
+   width: 400px;
+   background-color: wheat;
+   text-align: center;
+   color: blue;
+}
+
+#one {
+    color: aqua;
+}
+
+#two {
+    color: rgb(135, 145, 155);
+}
+
+#three {
+    color: violet;
+}
+
+#one {
+    color: red;
+}
+li {
+    font-size: 30px;
+    color: blue;
+}
+
+/* Problem: How to categorize the foods by Nationality? */
+/* Solution: Class Selector */
+
+.japanese {
+    color: pink;
+}
+/* italian and german should have different style
+please complete it. */
+
