@@ -1,0 +1,32 @@
+section #art01 {
+    width: 300px;
+    height: 600px;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    border: 2px solid brown;
+    /* padding  */
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+section #art02, #art03, #art04 {
+    width: 600px;
+    height: 200px;
+    background-color: turquoise;
+    color: brown;
+    border: 5px dotted darkblue;
+    /* padding */
+    padding: 20px 30px 40px 50px;
+}
+
+#art03 {
+    padding: 30px 40px 50px;
+}
+
+#art04 {
+    padding: 30px 40px;
+}
+
+

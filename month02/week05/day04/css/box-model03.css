@@ -1,0 +1,42 @@
+/* бүх section 
+
+өндөр өргөн адилхан болгоно уу
+*/
+
+section {
+    width: 400px;
+    height: 400px;
+    background-color: wheat;
+    font-size: 50px;
+    color: black;
+    border: 2px solid red;
+}
+
+
+#s01 {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+#s02 {
+    margin: 10px 20px 30px 40px;
+}
+
+#s03 {
+    margin: 30px 40px 50px;
+    opacity: 0.5;
+    /* top: 30px, left, right: 40px, bottom:50px */
+}
+
+#s04 {
+    margin: 30px 40px;
+}
+
+
+#s05 {
+    margin: auto;
+    /* border radius */
+    border-radius: 50%;
+}

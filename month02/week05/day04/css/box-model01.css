@@ -1,0 +1,56 @@
+/* tag selector */
+h1 {
+    font-size: 40px;
+    color: violet;
+}
+
+h2 {
+    font-size: xx-small;
+    color: yellow;
+}
+
+/* tag id, class selectors */
+
+/* id > tag */
+
+/* id > class */
+
+#box {
+    color: yellowgreen;
+}
+
+#box {
+    color: brown;
+}
+
+#section-01 {
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    /* border property */
+    border-color: tomato;
+    border-style: dotted;
+    border-width: 3px;
+}
+
+#section-02 {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    color: red;
+    /* border top */
+    border-top-color: rgb(127, 144, 255);
+    border-top-width: 15px;
+    border-top-style: double;
+    /* exercises */
+    /* border bottom өөрчилнө үү */
+
+}
+
+#section-03 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(127, 144, 255);
+    color: white;
+    border: 10px solid orange;
+}
