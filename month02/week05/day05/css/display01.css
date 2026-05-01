@@ -1,0 +1,23 @@
+/* universal selector */
+* {
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    border: 2px solid yellow;
+}
+
+#child-box {
+    padding: 10px;
+    width: 90%;
+    height: 80%;
+    background-color: blueviolet;
+    border: 2px solid blue;
+}
