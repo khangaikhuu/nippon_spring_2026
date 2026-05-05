@@ -1,0 +1,16 @@
+/* зүн талд нь log
+
+баруун буланд нь button
+
+өөриийн дураар button, h1-ийг 
+дизайн хийгээрэй.
+float ашиглаарай.
+*/
+.logo {
+  float: left;
+  margin: 0;
+}
+.login-btn {
+  float: right;
+  margin-top: 5px;
+}

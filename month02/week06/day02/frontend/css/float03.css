@@ -1,0 +1,12 @@
+.column, .cols {
+    float: left;
+    width: 45%;
+    height: 50px;
+    background-color: orange;
+    border: 1px solid red;
+}
+
+.cols {
+    width: 30%;
+}
+
