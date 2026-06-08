@@ -1,0 +1,40 @@
+/* 1. Header using Flexbox (Where Flexbox Shines!) */
+.flex-card .card-header {
+  display: flex;
+  justify-content: space-between; /* Pushes title left, button right */
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* 2. Profile using Flexbox */
+.flex-card .card-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.flex-card .profile-text {
+  flex-grow: 1; /* Pushes the badge to the far right */
+  margin-left: 15px;
+}
+
+/* 3. Details using Flexbox (Requires more work than Grid) */
+.flex-card .card-details {
+  display: flex;
+  flex-direction: column; /* Stack the rows vertically */
+  gap: 12px;
+}
+
+.flex-card .detail-row {
+  display: flex;
+}
+
+.flex-card .label {
+  flex: 0 0 120px; /* Do not grow, do not shrink, strictly 120px wide */
+}
+
+.flex-card .value {
+  flex: 1; /* Take up the rest of the available space */
+}
