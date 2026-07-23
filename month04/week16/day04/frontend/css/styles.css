@@ -1,0 +1,30 @@
+main {
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    background-color: #454d62;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+}
+
+.sub-menu {
+    list-style: none;
+    color: #fff;
+}
+
+.aside {
+    width: 30%;
+    height: 70vh;
+    background-color: aqua;
+}
