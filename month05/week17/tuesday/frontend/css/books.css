@@ -1,0 +1,16 @@
+main {
+    background-color: aliceblue;
+    max-width: 800px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.quote {
+    max-width: 80%;
+    font-style: italic;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid red;
+}
